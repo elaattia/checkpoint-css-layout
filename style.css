@@ -1,0 +1,130 @@
+body{
+    width: fit-content;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.prempar img{
+    width: 250px;
+    
+}
+.deuxpar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.deuxpar a{
+    text-decoration: none;
+    padding: 0 10px;
+}
+.color{
+    color:#00b39b;
+}
+.couleur{
+    color:#a3a2a2 ;
+}
+.debut{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.debut div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 100px;
+}
+.posit{
+    color:#00b39b ;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:100;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+.parag{
+    color: #645c5c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cad{
+    width: 50%;
+}
+.card-group{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+}
+.card-child{
+    width: 20%;
+    padding: 50px 40px;
+    gap: 0.2vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#cadreone{
+    background-color:#00b39b ;
+}
+#cadretwo{
+    background-color:#3d83df ;
+}
+#cadrethree{
+    background-color:#747474 ;
+}
+.card-child span{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-child p{
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-child select{
+    border: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+}
+#cadreone select{
+    background-color:#00b39b ;
+}
+#cadretwo select{
+    background-color:#3d83df ;
+}
+#cadrethree select{
+    background-color:#747474 ;
+}
+.card-child img{
+    width: 20px;
+}
+.footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.footer p{
+    color: #00b39b;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 30%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.colone{
+    display: flex;
+    flex-direction: column;
+}
